@@ -13,108 +13,62 @@ body {
 }
 
 .container {
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
-/* Header Styles */
+/* Header */
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 100;
-    padding: 0 20px;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
+    padding: 20px 0;
 }
 
 .logo h1 {
+    margin: 0;
+    font-size: 1.87rem; /* Increased by 10% from 1.7rem */
     color: #2c3e50;
-    font-size: 1.8rem;
-    margin-bottom: 0;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-}
-
-.logo h1::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: linear-gradient(to right, #3498db, #e74c3c);
-    margin-top: 5px;
-    border-radius: 2px;
 }
 
 .logo p {
+    margin: 5px 0 0;
+    font-size: 0.99rem; /* Increased by 10% from 0.9rem */
     color: #7f8c8d;
-    font-size: 0.85rem;
-    margin-top: 5px;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 
 nav ul li {
-    margin-left: 5px;
+    margin-left: 33px; /* Increased by 10% from 30px */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #2c3e50;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    padding: 10px 18px;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-}
-
-nav ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: linear-gradient(to right, #3498db, #2c3e50);
-    transition: all 0.5s;
-    z-index: -1;
-    border-radius: 30px;
-}
-
-nav ul li a:hover::before,
-nav ul li a.active::before {
-    width: 100%;
+    font-weight: 550; /* Increased by 10% from 500 */
+    font-size: 1.045rem; /* Increased by 10% from 0.95rem */
+    transition: color 0.3s ease;
+    padding: 8.8px 16.5px; /* Increased by 10% from 8px 15px */
+    border-radius: 33px; /* Increased by 10% from 30px */
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-nav ul li a.active {
-    background: linear-gradient(to right, #3498db, #2c3e50);
+    background-color: #3498db;
     color: white;
 }
 
@@ -158,20 +112,20 @@ nav ul li a.active {
 }
 
 .hero-content h1 {
-    font-size: 2.8rem;
-    margin-bottom: 10px;
+    font-size: 3.08rem; /* Increased by 10% from 2.8rem */
+    margin-bottom: 11px; /* Increased by 10% from 10px */
 }
 
 .hero-content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.65rem; /* Increased by 10% from 1.5rem */
+    margin-bottom: 22px; /* Increased by 10% from 20px */
     color: #3498db;
 }
 
 .hero-content p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    max-width: 600px;
+    font-size: 1.21rem; /* Increased by 10% from 1.1rem */
+    margin-bottom: 33px; /* Increased by 10% from 30px */
+    max-width: 660px; /* Increased by 10% from 600px */
 }
 
 .hero-buttons {
@@ -202,8 +156,8 @@ nav ul li a.active {
 }
 
 .page-hero h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
+    margin-bottom: 16.5px; /* Increased by 10% from 15px */
 }
 
 /* Buttons */
@@ -216,14 +170,14 @@ nav ul li a.active {
 
 .btn {
     display: inline-block;
-    padding: 12px 30px;
-    border-radius: 30px;
+    padding: 13.2px 33px; /* Increased by 10% from 12px 30px */
+    border-radius: 33px; /* Increased by 10% from 30px */
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 660; /* Increased by 10% from 600 */
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Increased by 10% from 1rem */
 }
 
 .btn.primary {
@@ -278,8 +232,8 @@ nav ul li a.active {
 
 .feature-box h3 {
     color: #2c3e50;
-    margin-bottom: 15px;
-    font-size: 1.4rem;
+    margin-bottom: 16.5px; /* Increased by 10% from 15px */
+    font-size: 1.54rem; /* Increased by 10% from 1.4rem */
 }
 
 /* Portfolio Introduction */
@@ -291,8 +245,8 @@ nav ul li a.active {
 .portfolio-intro h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 30px;
-    font-size: 2rem;
+    margin-bottom: 33px; /* Increased by 10% from 30px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .intro-content {
@@ -302,8 +256,8 @@ nav ul li a.active {
 }
 
 .intro-content p {
-    font-size: 1.1rem;
-    margin-bottom: 40px;
+    font-size: 1.21rem; /* Increased by 10% from 1.1rem */
+    margin-bottom: 44px; /* Increased by 10% from 40px */
     color: #555;
 }
 
@@ -322,9 +276,9 @@ nav ul li a.active {
 }
 
 .stat-item h3 {
-    font-size: 2rem;
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
     color: #3498db;
-    margin-bottom: 10px;
+    margin-bottom: 11px; /* Increased by 10% from 10px */
 }
 
 .stat-item p {
@@ -341,8 +295,8 @@ nav ul li a.active {
 .expertise h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 50px;
-    font-size: 2rem;
+    margin-bottom: 55px; /* Increased by 10% from 50px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .expertise-grid {
@@ -393,7 +347,7 @@ nav ul li a.active {
 
 .expertise-item h3 {
     color: #2c3e50;
-    margin-bottom: 15px;
+    margin-bottom: 16.5px; /* Increased by 10% from 15px */
 }
 
 .expertise-item p {
@@ -409,8 +363,8 @@ nav ul li a.active {
 .photo-highlights h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 40px;
-    font-size: 2rem;
+    margin-bottom: 44px; /* Increased by 10% from 40px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .photo-grid {
@@ -479,9 +433,9 @@ nav ul li a.active {
     right: 0;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
     color: white;
-    padding: 20px;
-    font-weight: 500;
-    font-size: 1.1rem;
+    padding: 22px; /* Increased by 10% from 20px */
+    font-weight: 550; /* Increased by 10% from 500 */
+    font-size: 1.21rem; /* Increased by 10% from 1.1rem */
 }
 
 .centered-button {
@@ -497,8 +451,8 @@ nav ul li a.active {
 .featured-projects h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 50px;
-    font-size: 2rem;
+    margin-bottom: 55px; /* Increased by 10% from 50px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .projects-grid {
@@ -543,7 +497,7 @@ nav ul li a.active {
 
 .project-content h3 {
     color: #2c3e50;
-    margin-bottom: 15px;
+    margin-bottom: 16.5px; /* Increased by 10% from 15px */
 }
 
 .project-content p {
@@ -555,10 +509,10 @@ nav ul li a.active {
     display: inline-block;
     background: #3498db;
     color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
+    padding: 5.5px 16.5px; /* Increased by 10% from 5px 15px */
+    border-radius: 22px; /* Increased by 10% from 20px */
+    font-size: 0.88rem; /* Increased by 10% from 0.8rem */
+    font-weight: 660; /* Increased by 10% from 600 */
 }
 
 /* Portfolio Testimonials */
@@ -570,8 +524,8 @@ nav ul li a.active {
 .portfolio-testimonials h2 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 50px;
-    font-size: 2rem;
+    margin-bottom: 55px; /* Increased by 10% from 50px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .testimonial-slider {
@@ -590,8 +544,8 @@ nav ul li a.active {
 
 .testimonial-slide p {
     font-style: italic;
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 1.32rem; /* Increased by 10% from 1.2rem */
+    margin-bottom: 33px; /* Increased by 10% from 30px */
     color: #555;
 }
 
@@ -620,7 +574,7 @@ nav ul li a.active {
 
 .author-info p {
     color: #7f8c8d;
-    font-size: 0.9rem;
+    font-size: 0.99rem; /* Increased by 10% from 0.9rem */
 }
 
 /* Testimonials */
@@ -632,8 +586,8 @@ nav ul li a.active {
 
 .testimonials h2 {
     color: #2c3e50;
-    margin-bottom: 40px;
-    font-size: 2rem;
+    margin-bottom: 44px; /* Increased by 10% from 40px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .testimonial {
@@ -647,8 +601,8 @@ nav ul li a.active {
 
 .testimonial p {
     font-style: italic;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+    font-size: 1.21rem; /* Increased by 10% from 1.1rem */
+    margin-bottom: 22px; /* Increased by 10% from 20px */
 }
 
 .testimonial span {
@@ -686,7 +640,7 @@ nav ul li a.active {
 
 .client-info h3 {
     color: #2c3e50;
-    margin-bottom: 5px;
+    margin-bottom: 5.5px; /* Increased by 10% from 5px */
 }
 
 .client-info p {
@@ -695,7 +649,7 @@ nav ul li a.active {
 
 .rating {
     color: #f39c12;
-    font-size: 1.2rem;
+    font-size: 1.32rem; /* Increased by 10% from 1.2rem */
 }
 
 .testimonial-content p {
@@ -808,12 +762,12 @@ nav ul li a.active {
 }
 
 .gallery-overlay h3 {
-    margin-bottom: 5px;
-    font-size: 1.3rem;
+    margin-bottom: 5.5px; /* Increased by 10% from 5px */
+    font-size: 1.43rem; /* Increased by 10% from 1.3rem */
 }
 
 .gallery-overlay p {
-    font-size: 0.9rem;
+    font-size: 0.99rem; /* Increased by 10% from 0.9rem */
     opacity: 0.9;
 }
 
@@ -836,8 +790,8 @@ nav ul li a.active {
 
 .service-item h3 {
     color: #2c3e50;
-    margin-bottom: 15px;
-    font-size: 1.5rem;
+    margin-bottom: 16.5px; /* Increased by 10% from 15px */
+    font-size: 1.65rem; /* Increased by 10% from 1.5rem */
 }
 
 .service-item ul {
@@ -857,8 +811,8 @@ nav ul li a.active {
 
 .about-text h3 {
     color: #2c3e50;
-    margin: 30px 0 15px;
-    font-size: 1.5rem;
+    margin: 33px 0 16.5px; /* Increased by 10% from 30px 0 15px */
+    font-size: 1.65rem; /* Increased by 10% from 1.5rem */
 }
 
 .about-text ul {
@@ -878,8 +832,8 @@ nav ul li a.active {
 
 .team-section h2 {
     color: #2c3e50;
-    margin-bottom: 40px;
-    font-size: 2rem;
+    margin-bottom: 44px; /* Increased by 10% from 40px */
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
 }
 
 .team-members {
@@ -928,8 +882,8 @@ nav ul li a.active {
 
 .team-member h4 {
     color: #2c3e50;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
+    margin-bottom: 11px; /* Increased by 10% from 10px */
+    font-size: 1.43rem; /* Increased by 10% from 1.3rem */
 }
 
 /* Contact Page */
@@ -964,8 +918,8 @@ nav ul li a.active {
 
 .contact-item h4 {
     color: #2c3e50;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
+    margin-bottom: 8.8px; /* Increased by 10% from 8px */
+    font-size: 1.32rem; /* Increased by 10% from 1.2rem */
 }
 
 .form-group {
@@ -982,11 +936,11 @@ nav ul li a.active {
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    padding: 13.2px; /* Increased by 10% from 12px */
+    border: 1.1px solid #ddd; /* Increased by 10% from 1px */
+    border-radius: 4.4px; /* Increased by 10% from 4px */
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Increased by 10% from 1rem */
 }
 
 .form-group input:focus,
@@ -1020,19 +974,19 @@ nav ul li a.active {
 }
 
 .portfolio-cta h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2.75rem; /* Increased by 10% from 2.5rem */
+    margin-bottom: 22px; /* Increased by 10% from 20px */
 }
 
 .portfolio-cta p {
-    font-size: 1.3rem;
-    max-width: 700px;
-    margin: 0 auto 40px;
+    font-size: 1.43rem; /* Increased by 10% from 1.3rem */
+    max-width: 770px; /* Increased by 10% from 700px */
+    margin: 0 auto 44px; /* Increased by 10% from 0 auto 40px */
 }
 
 .btn.large {
-    padding: 15px 40px;
-    font-size: 1.2rem;
+    padding: 16.5px 44px; /* Increased by 10% from 15px 40px */
+    font-size: 1.32rem; /* Increased by 10% from 1.2rem */
 }
 
 /* CTA Section */
@@ -1044,14 +998,14 @@ nav ul li a.active {
 }
 
 .cta-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 2.2rem; /* Increased by 10% from 2rem */
+    margin-bottom: 22px; /* Increased by 10% from 20px */
 }
 
 .cta-section p {
-    font-size: 1.2rem;
-    max-width: 700px;
-    margin: 0 auto 30px;
+    font-size: 1.32rem; /* Increased by 10% from 1.2rem */
+    max-width: 770px; /* Increased by 10% from 700px */
+    margin: 0 auto 33px; /* Increased by 10% from 0 auto 30px */
 }
 
 /* Footer */
@@ -1124,8 +1078,8 @@ footer {
     }
     
     nav ul li a {
-        padding: 12px 25px;
-        font-size: 1.1rem;
+        padding: 13.2px 27.5px; /* Increased by 10% from 12px 25px */
+        font-size: 1.21rem; /* Increased by 10% from 1.1rem */
     }
     
     header .container {
@@ -1135,7 +1089,7 @@ footer {
     }
     
     .hero h2 {
-        font-size: 2rem;
+        font-size: 2.2rem; /* Increased by 10% from 2rem */
     }
     
     .cta-buttons {
@@ -1205,11 +1159,11 @@ footer {
     }
     
     .portfolio-cta h2 {
-        font-size: 2rem;
+        font-size: 2.2rem; /* Increased by 10% from 2rem */
     }
     
     .portfolio-cta p {
-        font-size: 1.1rem;
+        font-size: 1.21rem; /* Increased by 10% from 1.1rem */
     }
 }
 
