@@ -329,32 +329,150 @@ nav ul li a.active {
     object-fit: cover;
 }
 
+/* Update blue gradient backgrounds to use new images with lighter blue transparency and sliding effect */
+
 .logistics {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(44, 62, 80, 0.1)), url('images/videoframe_3219.png');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
 }
 
 .fleet {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(52, 152, 219, 0.1)), url('images/international-shipping.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
 }
 
 .tech {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(231, 76, 60, 0.1)), url('images/office-staff.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
 }
 
 .customer {
-    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(231, 76, 60, 0.1), rgba(52, 152, 219, 0.1)), url('images/delivery-truck.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.package-handling {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(44, 62, 80, 0.1)), url('images/signature-required.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.delivery-van {
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(52, 152, 219, 0.1)), url('images/videoframe_3219.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.delivery-team {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(231, 76, 60, 0.1)), url('images/office-staff.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.warehouse {
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(231, 76, 60, 0.1)), url('images/international-shipping.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.express-delivery {
+    background: linear-gradient(rgba(231, 76, 60, 0.1), rgba(52, 152, 219, 0.1)), url('images/delivery-truck.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.cargo-plane {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(243, 156, 18, 0.1)), url('images/videoframe_3219.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.customer-service {
+    background: linear-gradient(rgba(243, 156, 18, 0.1), rgba(52, 152, 219, 0.1)), url('images/office-staff.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.control-room {
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(243, 156, 18, 0.1)), url('images/signature-required.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.sarah-ingabire {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(231, 76, 60, 0.1)), url('images/videoframe_3219.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.michael-chen {
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(52, 152, 219, 0.1)), url('images/office-staff.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.emma-rodriguez {
+    background: linear-gradient(rgba(231, 76, 60, 0.1), rgba(243, 156, 18, 0.1)), url('images/delivery-truck.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.retail {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(44, 62, 80, 0.1)), url('images/international-shipping.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.healthcare {
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(52, 152, 219, 0.1)), url('images/signature-required.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
+}
+
+.ecommerce {
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(231, 76, 60, 0.1)), url('images/videoframe_3219.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    animation: slideLeft 20s linear infinite;
 }
 
 .expertise-item h3 {
@@ -403,63 +521,6 @@ nav ul li a.active {
 
 .photo-item:hover .photo-highlight {
     transform: scale(1.05);
-}
-
-/* Specific placeholder styles */
-.package-handling {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.delivery-van {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.delivery-team {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.warehouse {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.express-delivery {
-    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.cargo-plane {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.customer-service {
-    background: linear-gradient(rgba(243, 156, 18, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.control-room {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
 }
 
 .photo-caption {
@@ -513,27 +574,6 @@ nav ul li a.active {
     width: 100%;
     height: 200px;
     object-fit: cover;
-}
-
-.retail {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.healthcare {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.ecommerce {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
 }
 
 .project-content {
@@ -773,63 +813,6 @@ nav ul li a.active {
     transform: scale(1.05);
 }
 
-/* Specific gallery placeholder styles */
-.package-handling {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.delivery-van {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.delivery-team {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.warehouse {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.express-delivery {
-    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.cargo-plane {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.customer-service {
-    background: linear-gradient(rgba(243, 156, 18, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.control-room {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
 .gallery-overlay h3 {
     margin-bottom: 5.5px; /* Increased by 10% from 5px */
     font-size: 1.43rem; /* Increased by 10% from 1.3rem */
@@ -937,27 +920,6 @@ nav ul li a.active {
     object-fit: cover;
 }
 
-.sarah-ingabire {
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.michael-chen {
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
-.emma-rodriguez {
-    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: overlay;
-}
-
 .team-member h4 {
     color: #2c3e50;
     margin-bottom: 11px; /* Increased by 10% from 10px */
@@ -1046,12 +1008,13 @@ nav ul li a.active {
 /* Portfolio CTA */
 .portfolio-cta {
     padding: 100px 0;
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(44, 62, 80, 0.1), rgba(52, 152, 219, 0.1)), url('images/office-staff.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     color: white;
     text-align: center;
+    animation: slideLeft 20s linear infinite;
 }
 
 .portfolio-cta h2 {
@@ -1073,12 +1036,13 @@ nav ul li a.active {
 /* CTA Section */
 .cta-section {
     padding: 80px 0;
-    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background: linear-gradient(rgba(52, 152, 219, 0.1), rgba(44, 62, 80, 0.1)), url('images/delivery-truck.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
     color: white;
     text-align: center;
+    animation: slideLeft 20s linear infinite;
 }
 
 .cta-section h2 {
@@ -1289,4 +1253,14 @@ footer {
 
 .team-member {
     border-top: 4px solid #e74c3c;
+}
+
+/* Sliding animation for background images */
+@keyframes slideLeft {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1000px 0;
+    }
 }
