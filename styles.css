@@ -330,19 +330,31 @@ nav ul li a.active {
 }
 
 .logistics {
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .fleet {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .tech {
-    background: linear-gradient(135deg, #3498db 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .customer {
-    background: linear-gradient(135deg, #e74c3c 0%, #3498db 100%);
+    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .expertise-item h3 {
@@ -395,35 +407,59 @@ nav ul li a.active {
 
 /* Specific placeholder styles */
 .package-handling {
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .delivery-van {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .delivery-team {
-    background: linear-gradient(135deg, #3498db 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .warehouse {
-    background: linear-gradient(135deg, #2c3e50 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .express-delivery {
-    background: linear-gradient(135deg, #e74c3c 0%, #3498db 100%);
+    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .cargo-plane {
-    background: linear-gradient(135deg, #3498db 0%, #f39c12 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .customer-service {
-    background: linear-gradient(135deg, #f39c12 0%, #3498db 100%);
+    background: linear-gradient(rgba(243, 156, 18, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .control-room {
-    background: linear-gradient(135deg, #2c3e50 0%, #f39c12 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .photo-caption {
@@ -480,15 +516,24 @@ nav ul li a.active {
 }
 
 .retail {
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .healthcare {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .ecommerce {
-    background: linear-gradient(135deg, #3498db 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .project-content {
@@ -730,35 +775,59 @@ nav ul li a.active {
 
 /* Specific gallery placeholder styles */
 .package-handling {
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .delivery-van {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .delivery-team {
-    background: linear-gradient(135deg, #3498db 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .warehouse {
-    background: linear-gradient(135deg, #2c3e50 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .express-delivery {
-    background: linear-gradient(135deg, #e74c3c 0%, #3498db 100%);
+    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .cargo-plane {
-    background: linear-gradient(135deg, #3498db 0%, #f39c12 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .customer-service {
-    background: linear-gradient(135deg, #f39c12 0%, #3498db 100%);
+    background: linear-gradient(rgba(243, 156, 18, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .control-room {
-    background: linear-gradient(135deg, #2c3e50 0%, #f39c12 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .gallery-overlay h3 {
@@ -869,15 +938,24 @@ nav ul li a.active {
 }
 
 .sarah-ingabire {
-    background: linear-gradient(135deg, #3498db 0%, #e74c3c 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(231, 76, 60, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .michael-chen {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .emma-rodriguez {
-    background: linear-gradient(135deg, #e74c3c 0%, #f39c12 100%);
+    background: linear-gradient(rgba(231, 76, 60, 0.8), rgba(243, 156, 18, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .team-member h4 {
@@ -968,7 +1046,10 @@ nav ul li a.active {
 /* Portfolio CTA */
 .portfolio-cta {
     padding: 100px 0;
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
     color: white;
     text-align: center;
 }
@@ -992,7 +1073,10 @@ nav ul li a.active {
 /* CTA Section */
 .cta-section {
     padding: 80px 0;
-    background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+    background: linear-gradient(rgba(52, 152, 219, 0.8), rgba(44, 62, 80, 0.8)), url('images/fragile-handling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
     color: white;
     text-align: center;
 }
