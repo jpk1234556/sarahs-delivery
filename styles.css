@@ -1064,6 +1064,20 @@ footer {
     padding: 20px 0;
 }
 
+footer p {
+    margin: 5px 0;
+}
+
+footer p:first-child {
+    margin-top: 0;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
 /* Hamburger Menu */
 .hamburger {
     display: none;
